@@ -7,9 +7,7 @@ const PORT = process.env.PORT || 8000;
 
 const orm = require("./config/orm")
 
-orm.selectAll("burgers")
-orm.insertOne("Angus five-star burger")
-orm.updateOne(true, 3)
+
 
 app.engine("handlebars", handlebars({ default:"main"}));
 app.set("view engine", "handlebars");
