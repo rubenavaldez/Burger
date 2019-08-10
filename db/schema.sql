@@ -20,3 +20,4 @@ CREATE TABLE `burgers`(
 `createdAt` timestamp not null,
 PRIMARY KEY (ID)
 );
+

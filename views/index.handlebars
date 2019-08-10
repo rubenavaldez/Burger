@@ -3,7 +3,7 @@
 <div class="col-md-4">
 <h2>Burgers ready to be eaten!</h2>
 
-<ul>
+<ul class="list-group">
   {{#each burgers}}
     {{#if devoured}}
       {{> burgers/burger-block devoured=false}}
@@ -16,7 +16,7 @@
 <h2>Burgers that were devoured!</h2>
 
 
-<ul>
+<ul class="list-group">
   {{#each burgers}}
     {{#unless devoured}}
       {{> burgers/burger-block devoured=true}}
