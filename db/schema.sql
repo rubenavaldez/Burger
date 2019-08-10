@@ -8,3 +8,15 @@ CREATE TABLE `burgers`(
 `devoured` BOOLEAN NOT NULL DEFAULT false
 
 );
+
+-- Jaws Schema
+use kh8l00e6sksdkkqx;
+
+
+CREATE TABLE `burgers`(
+`id` INTEGER AUTO_INCREMENT NOT NULL,
+`burger_name` VARCHAR(255) NOT NULL,
+`devoured` BOOLEAN NOT NULL DEFAULT false,
+`createdAt` timestamp not null,
+PRIMARY KEY (ID)
+);
